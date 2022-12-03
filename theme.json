@@ -9,6 +9,11 @@
 			"wideSize": "1280px"
 		},
 		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"duotone": [],
+			"link": true,
+			"custom": true,
 			"palette": [
 				{
 					"color": "#ffffff",
@@ -23,6 +28,7 @@
 			]
 		},
 		"spacing": {
+			"blockGap": true,
 			"spacingScale": {
 				"operator": "*",
 				"increment": 2,
@@ -38,6 +44,12 @@
 				"vh",
 				"vw"
 			]
+		},
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
 		}
 	},
 	"templateParts": [
